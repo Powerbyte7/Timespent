@@ -3,7 +3,13 @@
 This is a simple commandline tool I made myself to determine the number of hours spent on projects using file metadata. You specify a path, and an inactivity threshold:
 
 ```sh
-./timespent.exe C:\Users\John\Documents\CoolProject 3
+./timespent.exe C:\Users\John\Documents\CoolProject 2
+```
+
+```
+Using threshold of 2 hours
+Looking through files in C:\Users\John\Documents\CoolProject
+Hours spent according to files: 13.67
 ```
 
 ## How it works
